@@ -1,0 +1,77 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: #351229;
+  scroll-behavior: smooth;
+}
+
+.pantalla {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.pantalla svg {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: block;
+  object-fit: cover;
+}
+
+
+.pantalla > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hotspot-img0 {
+  position: absolute;
+  top: 35%; 
+  left: 40%;
+  width: 200px;  
+  height: 200px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#info2 {
+  position: relative;
+}
+
+#hotspot-izquierda,
+#hotspot-centro,
+#hotspot-derecha {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 33.3%;
+  z-index: 10;
+}
+
+#hotspot-izquierda {
+  left: 33.3%;
+}
+
+#hotspot-centro {
+  left: 0;
+}
+
+#hotspot-derecha {
+  left: 66.6%;
+}
