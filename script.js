@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pantallas = [
 
    
-    { id: "merch", path: "assets/merch/merch.json" },
+    { id: "merch", path: "merch/merch.json" },
   ];
 
   pantallas.forEach(p => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderer: "svg",
     loop: true,
     autoplay: false,
-    path: "assets/landing/landing.json"
+    path: "landing/landing.json"
   });
 
   const hotspot = document.getElementById("hotspot-img0");
@@ -43,7 +43,7 @@ const animInfo1 = lottie.loadAnimation({
   renderer: "svg",
   loop: false,
   autoplay: false,
-  path: "assets/info1/info1.json"
+  path: "info1/info1.json"
 });
 
 info1Container.addEventListener("mousemove", (e) => {
@@ -73,7 +73,7 @@ const animTemitas = lottie.loadAnimation({
   renderer: "svg",
   loop: false,
   autoplay: false,
-  path: "assets/temitas/temitas.json"
+  path: "temitas/temitas.json"
 });
 
 
@@ -93,7 +93,7 @@ const animInfo2 = lottie.loadAnimation({
   renderer: "svg",
   loop: false,
   autoplay: false,
-  path: "assets/info2/info2.json"
+  path: "info2/info2.json"
 });
 
 
